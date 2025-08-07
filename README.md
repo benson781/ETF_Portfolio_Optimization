@@ -1,16 +1,22 @@
-Python Portfolio Optimization with iShares ETFs
-Project Overview
+## Python Portfolio Optimization with iShares ETFs
+# Project Overview
 This project provides a practical application of portfolio optimization techniques using Python, specifically focusing on building and optimizing portfolios composed of iShares ETFs (BlackRock's Exchange Traded Funds). The core principle behind this project is the efficient frontier, a concept used to select the best portfolio from a set of considerations, typically aiming to maximize expected return while minimizing financial risk.
 The program collects historical market data, performs essential financial calculations, and leverages advanced libraries to identify optimal asset allocations, ultimately seeking to improve the portfolio's risk-adjusted returns.
 Description
 This Python program is designed to help users understand and implement portfolio optimization strategies. While the original framework uses a fictional portfolio of FAANG stocks, this adaptation demonstrates the process with real-world iShares ETFs. The entire project can be run conveniently in a Google Colab environment, which allows for direct Python code execution without requiring local installation.
+
 The project guides you through the process of:
 • Acquiring historical price data for selected ETFs.
+
 • Calculating key financial metrics such as daily returns, covariance, variance, and volatility.
+
 • Visualizing portfolio performance trends.
+
 • Applying advanced optimization algorithms to achieve a maximal Sharpe ratio, indicating a portfolio with the best risk-adjusted return.
+
 • Providing a discrete allocation plan, detailing the number of shares to purchase for each ETF based on your total investment amount.
-Key Features
+
+# Key Features
 • Data Acquisition: Automatically fetches historical adjusted close price data for user-defined iShares ETFs using pandas_datareader.
 • Financial Analysis & Metrics:
     ◦ Calculates daily simple returns for each ETF.
